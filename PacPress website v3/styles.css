@@ -91,7 +91,7 @@ h3 { font-size: 18px; font-weight: 600; }
   display: flex;
   -webkit-align-items: center;
   align-items: center;
-  gap: 10px;
+  gap: 0;
   font-weight: 800;
   font-size: 20px;
   color: #06264a;
@@ -101,14 +101,14 @@ h3 { font-size: 18px; font-weight: 600; }
   text-decoration: none;
 }
 .logo-mark {
-  width: 32px; height: 32px;
-  border-radius: 6px;
-  background: #0064b7;
+  width: 178px; height: 50px;
+  border-radius: 0;
+  background: url('assets/brand/pacpress-full-logo.webp') center / contain no-repeat;
   display: block;
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
 }
-.logo-text { color: #06264a; }
+.logo-text { display: none; }
 
 .main-nav {
   display: -webkit-flex;
@@ -546,8 +546,8 @@ h3 { font-size: 18px; font-weight: 600; }
 .site-footer { background: #06264a; }
 .footer-inner { display: -webkit-flex; display: flex; gap: 48px; padding-top: 56px; padding-bottom: 40px; }
 .footer-brand { -webkit-flex: 1.5; flex: 1.5; }
-.footer-brand .logo { color: #ffffff; margin-bottom: 14px; }
-.footer-brand .logo-mark { background: rgba(255,255,255,0.15); }
+.footer-brand .logo { color: #ffffff; margin-bottom: 18px; width: -webkit-fit-content; width: fit-content; border-radius: 8px; overflow: hidden; }
+.footer-brand .logo-mark { width: 240px; height: 68px; background: url('assets/brand/pacpress-full-logo.webp') center / contain no-repeat; }
 .footer-brand p { font-size: 14px; color: rgba(255,255,255,0.60); max-width: 40ch; margin-bottom: 14px; }
 .footer-contact { font-size: 14px; color: rgba(255,255,255,0.65); line-height: 1.8; }
 .footer-contact a { color: rgba(255,255,255,0.80); text-decoration: underline; }

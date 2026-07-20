@@ -66,3 +66,6 @@ Original logo files are stored in `assets/brand/`:
 - `132008-PAC_Logo_BW name only.jpg` - horizontal name-only treatment
 
 Do not stretch, redraw, recolor, crop through, or replace the logo with the current generic blue square. Create optimized web derivatives later while preserving these originals.
+
+- Implemented `assets/brand/pacpress-full-logo.webp` as the shared header and footer logo.
+- The original AI, JPG, and GIF files remain unchanged in `assets/brand/`.
