@@ -11,6 +11,15 @@
 - Do not invent field stories, results, statistics, or technical claims.
 - Keep clear internal links back to the main Rentals page, relevant guides, project stories, and Contact.
 
+### Simplified industry template implemented
+
+- Each industry page now opens with one relevant image, a short description, and two direct actions.
+- `Common Rental Applications` appears before `When Renting Makes Sense`.
+- Removed the separate problem statement and repeated four-step rental-process sections.
+- Replaced the long sizing checklist with one compact sizing and quote prompt.
+- Reduced each page to two useful FAQs and three simple internal links.
+- Current industry images are temporary relevant field photos. Each `<img>` has a unique `data-photo-slot` value so the client-selected replacement can be swapped in directly later.
+
 ## Client review materials
 
 - Three marked-up homepage photos were received and saved in `references/homepage-markup/`.
