@@ -18,7 +18,7 @@
 - Removed the separate problem statement and repeated four-step rental-process sections.
 - Replaced the long sizing checklist with one compact sizing and quote prompt.
 - Reduced each page to two useful FAQs and three simple internal links.
-- Current industry images are temporary relevant field photos. Each `<img>` has a unique `data-photo-slot` value so the client-selected replacement can be swapped in directly later.
+- Client-selected images are now installed on all nine industry pages. Each `<img>` retains its unique `data-photo-slot` value so future replacements remain straightforward.
 
 ## Client review materials
 
@@ -50,6 +50,29 @@ Do not implement uncertain readings until the matching SharePoint files have bee
 - Lagoon Sludge Removal: `132334-Environmental market (lagon sludge).tif`
 - Urban Environmental Project: `132378-Environmental market.tif`
 - Open-Pit Mine Installation: `1200mm 225 psi frame.JPG`
+
+### Industry and rental-size photo markup
+
+- Three additional marked-up homepage photos are saved in `references/industry-sizing-markup/`.
+- The following client-selected images are installed on the homepage industry cards and the matching industry detail pages:
+  - Concrete and Cement Washout: `132127-Solid dischargeX2.jpg`
+  - Mining and Aggregates: `800mm at Morenci.JPG`
+  - Food and Beverage: `California concentrates.JPEG`
+  - Water and Wastewater: `132044-trailer.jpg`
+  - Environmental Remediation: `City of Redlands 630-5.JPG`
+  - Industrial and Petrochemical: `SSI 40 cu.ft. 800mm # 1471.jpg`
+  - Laundry and Process Water: `132065-Laundry market.jpg`
+  - Lagoon and Pond Cleanouts: `132334-Environmental market (lagon sludge).tif`
+  - Waterjet Sump Cleaning: `132149-General industry-market.JPG`
+  - See All Industries: `AECOM-Shell Refinery.jpg`
+- The Rental Press Sizes cards use:
+  - 5 cu.ft.: `City of Redlands 630-5.JPG`
+  - 10 cu.ft.: `132237-Rental press 630.JPG`
+  - 15 cu.ft.: `RUSH Energy groundwater remediation.JPEG`
+  - 20 cu.ft.: `SSI 40 cu.ft. 800mm # 1471.jpg`
+  - 30 cu.ft.: `Cooper Tire.JPEG`
+  - 75-100 cu.ft.: `Kemira Mojave fiberglass.JPEG`
+- The rental-size introduction uses `IMG_3828.JPEG` for the portable lab press.
 
 ## SharePoint source library
 

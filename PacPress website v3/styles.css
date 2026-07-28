@@ -425,6 +425,11 @@ h3 { font-size: 18px; font-weight: 600; }
 .steps-cta { text-align: center; }
 
 /* ---- Product sizes ---- */
+.sizing-intro-row { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 36px; -webkit-align-items: start; align-items: start; margin-bottom: 36px; }
+.sizing-intro-row .section-header { margin-bottom: 0; }
+.sizing-lab-photo { margin: 0; overflow: hidden; border: 1px solid #d9e2ec; border-radius: 14px; background: #ffffff; box-shadow: 0 4px 16px rgba(6,38,74,0.08); }
+.sizing-lab-photo img { display: block; width: 100%; height: 168px; object-fit: cover; object-position: center 58%; }
+.sizing-lab-photo figcaption { padding: 10px 12px; color: #425466; font-size: 12px; font-weight: 700; letter-spacing: 0.02em; }
 .product-grid { display: -webkit-flex; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; gap: 16px; }
 .product-card { width: calc(16.666% - 14px); border: 1px solid #d9e2ec; border-radius: 14px; overflow: hidden; background: #ffffff; box-shadow: 0 1px 4px rgba(6,38,74,0.07); display: -webkit-flex; display: flex; -webkit-flex-direction: column; flex-direction: column; transition: transform 0.18s ease, box-shadow 0.18s ease; }
 .product-card:hover { -webkit-transform: translateY(-2px); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(6,38,74,0.09); }
@@ -587,6 +592,7 @@ h3 { font-size: 18px; font-weight: 600; }
   .use-card      { width: calc(50% - 10px); }
   .industry-card { width: calc(50% - 10px); }
   .product-card  { width: calc(33.333% - 11px); }
+  .sizing-intro-row { grid-template-columns: minmax(0, 1fr) 190px; gap: 24px; }
   .why-card      { width: calc(50% - 10px); }
   .field-card    { width: calc(50% - 12px); }
   .steps { -webkit-flex-direction: column; flex-direction: column; -webkit-align-items: center; align-items: center; gap: 24px; }
@@ -613,6 +619,8 @@ h3 { font-size: 18px; font-weight: 600; }
   .use-card      { width: 100%; }
   .industry-card { width: calc(50% - 10px); }
   .product-card  { width: calc(50% - 8px); }
+  .sizing-intro-row { grid-template-columns: 1fr; gap: 20px; }
+  .sizing-lab-photo { max-width: 320px; }
   .why-card      { width: 100%; }
   .field-card    { width: 100%; }
   .explain-card  { width: calc(50% - 8px); }
