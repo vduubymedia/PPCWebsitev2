@@ -79,6 +79,19 @@ Do not implement uncertain readings until the matching SharePoint files have bee
 - PacPress 2026 website folder:
   https://pacpressco.sharepoint.com/:f:/r/sites/EngineeringtoPurchasing/Shared%20Documents/Pac-Press%20Knowledge%20base/A%20Web%20site%20for%202026?csf=1&web=1&e=iOFdQj
 
+## Rental project stories
+
+- Source document preserved at `references/rental-stories/Rental web site notes.docx`.
+- The homepage now uses four complete, source-backed rental stories instead of linking to five placeholder story pages:
+  - Seasonal Grape-Juice Filtration at a California Winery
+  - Municipal Settling-Pond Dewatering Pilot
+  - Industrial Lagoon Remediation at a Decommissioned Chemical Site
+  - Bentonite Slurry Dewatering for Seattle's SR-99 Tunnel
+- The California winery and municipality remain unnamed, as directed by the source document.
+- The industrial-remediation story is described by site type and location rather than naming a company because the source heading and narrative use different company names.
+- Figures, durations, equipment sizes, treatment steps, and results were retained from the source. No testimonials or performance claims were invented.
+- The industrial-remediation and tunnel-story images are explicitly captioned as representative configurations where the source document did not identify a matching project photo.
+
 ## Brand assets
 
 Original logo files are stored in `assets/brand/`:
