@@ -90,7 +90,20 @@ Do not implement uncertain readings until the matching SharePoint files have bee
 - The California winery and municipality remain unnamed, as directed by the source document.
 - The industrial-remediation story is described by site type and location rather than naming a company because the source heading and narrative use different company names.
 - Figures, durations, equipment sizes, treatment steps, and results were retained from the source. No testimonials or performance claims were invented.
-- The industrial-remediation and tunnel-story images are explicitly captioned as representative configurations where the source document did not identify a matching project photo.
+- The industrial-remediation story image is explicitly captioned as a representative configuration because the source document did not identify a matching project photo.
+
+### Additional SharePoint photos added July 27, 2026
+
+- The Rentals page now uses client-owned images from `Vaughn photos`:
+  - Hero: `800 HP rental press 2010.JPG`
+  - Temporary treatment system: `Big Bertha clarifier tanks.JPG`
+  - Support equipment: `470-1 cu.ft test press and precoat tank.JPEG`
+  - Industrial application: `Hydrocal CAF sludge in a dairy.JPG`
+- The Seattle SR-99 story now uses exact project images instead of a representative rental image:
+  - `Tunnel Boring horizontal.JPG`
+  - `Big Bertha clarifier tanks.JPG`
+- The missing homepage hero video is now supplied by `2m Presses-Panning side to side.MP4`.
+- SharePoint site search did not return a document confirming the draft pricing, deployment-time, rental-credit, or included-equipment claims. Keep those claims marked for client confirmation rather than presenting them as verified facts.
 
 ## Brand assets
 
