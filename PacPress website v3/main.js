@@ -134,39 +134,33 @@ pinned hero scroll, mobile nav, smooth scroll.
     });
   });
 
-  // [CLIENT CONFIRMATION REQUIRED] Replace with a real submission endpoint (Formspree, Netlify Forms, custom API, etc.)
-  var QUOTE_FORM_ENDPOINT = 'REPLACE_WITH_FORM_ENDPOINT_URL';
-
   var contactForm = document.getElementById('contact-form');
   if (contactForm) {
     contactForm.addEventListener('submit', function (e) {
       e.preventDefault();
-      var submitBtn = contactForm.querySelector('[type="submit"]');
+      if (!contactForm.reportValidity()) return;
+
       var statusEl = document.getElementById('form-status');
-      if (submitBtn) submitBtn.disabled = true;
+      var data = new FormData(contactForm);
+      var name = String(data.get('name') || '').trim();
+      var email = String(data.get('email') || '').trim();
+      var phone = String(data.get('phone') || '').trim();
+      var details = String(data.get('details') || '').trim();
+      var subject = 'Filter press rental quote request from ' + name;
+      var body = [
+        'Name: ' + name,
+        'Email: ' + email,
+        'Phone: ' + (phone || 'Not provided'),
+        '',
+        'Project details:',
+        details
+      ].join('\n');
+
       if (statusEl) {
-        statusEl.className = 'form-status form-status-pending';
-        statusEl.textContent = 'Sending...';
+        statusEl.className = 'form-status form-status-success';
+        statusEl.textContent = 'Your email application should open with the project details filled in. Review the message, then send it to PacPress.';
       }
-      fetch(QUOTE_FORM_ENDPOINT, {
-        method: 'POST',
-        body: new FormData(contactForm),
-        headers: { 'Accept': 'application/json' }
-      }).then(function (res) {
-        if (!res.ok) throw new Error('Submission failed');
-        if (statusEl) {
-          statusEl.className = 'form-status form-status-success';
-          statusEl.textContent = "Message sent -- we'll be in touch within one business day.";
-        }
-        contactForm.reset();
-      }).catch(function () {
-        if (statusEl) {
-          statusEl.className = 'form-status form-status-error';
-          statusEl.textContent = 'This form is not yet connected to a submission service. Please call 800-000-0000 or email info@pacpress.com directly.';
-        }
-      }).finally(function () {
-        if (submitBtn) submitBtn.disabled = false;
-      });
+      window.location.href = 'mailto:sales@pacpress.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
     });
   }
 })();

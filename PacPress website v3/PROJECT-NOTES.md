@@ -118,3 +118,15 @@ Do not stretch, redraw, recolor, crop through, or replace the logo with the curr
 
 - Implemented `assets/brand/pacpress-full-logo.webp` as the shared header and footer logo.
 - The original AI, JPG, and GIF files remain unchanged in `assets/brand/`.
+
+## Launch-readiness update - July 31, 2026
+
+- Public contact information is now consistent across the site:
+  - Sales email: `sales@pacpress.com`
+  - Main phone: `714-982-5600`
+  - Address: `1215 Fee Ana St., Anaheim, CA 92807`
+- Sean Duby's mobile number from the supplied email signature was intentionally not published.
+- Draft exact prices, guaranteed deployment timing, rental-credit language, and included-equipment claims were removed because the SharePoint material did not verify them. Those sections now explain the factors used for a project-specific quote.
+- The static quote forms prepare a prefilled email to `sales@pacpress.com`. A server-backed form handler can replace this fallback after a hosting or CRM destination is approved.
+- Added `robots.txt`, `sitemap.xml`, a branded `404.html`, and a PacPress favicon.
+- The sitemap contains the 20 public landing and project-story pages. The printable review page, source references, and uploaded working files are excluded from indexing.

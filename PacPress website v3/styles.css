@@ -557,6 +557,7 @@ h3 { font-size: 18px; font-weight: 600; }
 .footer-contact { font-size: 14px; color: rgba(255,255,255,0.65); line-height: 1.8; }
 .footer-contact a { color: rgba(255,255,255,0.80); text-decoration: underline; }
 .footer-contact a:hover { color: #ffffff; }
+.footer-address { margin: 4px 0 0; color: rgba(255,255,255,0.65); font-size: 14px; font-style: normal; line-height: 1.55; }
 .footer-nav { display: -webkit-flex; display: flex; gap: 48px; -webkit-flex-wrap: wrap; flex-wrap: wrap; }
 .footer-col { display: -webkit-flex; display: flex; -webkit-flex-direction: column; flex-direction: column; gap: 6px; }
 .footer-col-title { font-size: 12px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 6px; }
