@@ -62,7 +62,7 @@ Do not implement uncertain readings until the matching SharePoint files have bee
   - Environmental Remediation: `City of Redlands 630-5.JPG`
   - Industrial and Petrochemical: `SSI 40 cu.ft. 800mm # 1471.jpg`
   - Laundry and Process Water: `132065-Laundry market.jpg`
-  - Lagoon and Pond Cleanouts: `132334-Environmental market (lagon sludge).tif`
+  - Evaporation Pond Cleanout: `132334-Environmental market (lagon sludge).tif`
   - Waterjet Sump Cleaning: `132149-General industry-market.JPG`
   - See All Industries: `AECOM-Shell Refinery.jpg`
 - The Rental Press Sizes cards use:
@@ -90,7 +90,7 @@ Do not implement uncertain readings until the matching SharePoint files have bee
 - The California winery and municipality remain unnamed, as directed by the source document.
 - The industrial-remediation story is described by site type and location rather than naming a company because the source heading and narrative use different company names.
 - Figures, durations, equipment sizes, treatment steps, and results were retained from the source. No testimonials or performance claims were invented.
-- The industrial-remediation story image is explicitly captioned as a representative configuration because the source document did not identify a matching project photo.
+- The industrial-remediation story uses client-selected photo `132378` (`field-urban-environmental.webp`).
 
 ### Additional SharePoint photos added July 27, 2026
 
@@ -130,3 +130,15 @@ Do not stretch, redraw, recolor, crop through, or replace the logo with the curr
 - The static quote forms prepare a prefilled email to `sales@pacpress.com`. A server-backed form handler can replace this fallback after a hosting or CRM destination is approved.
 - Added `robots.txt`, `sitemap.xml`, a branded `404.html`, and a PacPress favicon.
 - The sitemap contains the 20 public landing and project-story pages. The printable review page, source references, and uploaded working files are excluded from indexing.
+
+## August 2026 homepage revision
+
+- The public canonical domain is `https://www.rentalpress.com/`; the homepage includes a separate external link to `https://www.pacpress.com/`.
+- The official PacPress rental brochure is stored at `assets/docs/pacpress-rental-brochure.pdf` with a downloadable homepage preview.
+- Homepage stats now show 40+ years manufacturing, 10+ rental presses, and 300+ cu. ft. of rental capacity; unverified deployment-time language was removed.
+- The four rental-explanation images use `Remove Solids.JPEG`, `Clarifies water.JPEG`, `P1520368.JPG`, and `Testing 470mm membrane press at TIMET.tif` from SharePoint.
+- The homepage Environmental Remediation card uses client-selected photo `132154` (`field-industrial-site.webp`).
+- The former Lagoon and Pond Cleanouts category is now Evaporation Pond Cleanout at `industry-evaporation-pond-cleanout.html`.
+- The homepage solutions cards use `132350-Laundry application Photo.tif`, `Running out of storage space.JPEG`, `132048`, `Hydrocal CAF sludge in a dairy.JPG`, and `Pilot testing against other technologies.JPEG`.
+
+\n

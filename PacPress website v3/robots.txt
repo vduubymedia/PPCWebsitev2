@@ -4,4 +4,6 @@ Disallow: /references/
 Disallow: /uploads/
 Disallow: /industries-print.html
 
-Sitemap: https://www.pacpress.com/sitemap.xml
+Sitemap: https://www.rentalpress.com/sitemap.xml
+
+\n

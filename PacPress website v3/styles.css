@@ -365,12 +365,23 @@ h3 { font-size: 18px; font-weight: 600; }
 .two-col-text .btn { margin-top: 8px; }
 
 .explain-cards { -webkit-flex: 1; flex: 1; display: -webkit-flex; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; gap: 16px; }
-.explain-card { width: calc(50% - 8px); background: #ffffff; border: 1px solid #d9e2ec; border-radius: 14px; padding: 20px; box-shadow: 0 1px 4px rgba(6,38,74,0.07); display: -webkit-flex; display: flex; -webkit-flex-direction: column; flex-direction: column; transition: transform 0.18s ease, box-shadow 0.18s ease; }
+.explain-card { width: calc(50% - 8px); background: #ffffff; border: 1px solid #d9e2ec; border-radius: 14px; padding: 0 0 20px; overflow: hidden; box-shadow: 0 1px 4px rgba(6,38,74,0.07); display: -webkit-flex; display: flex; -webkit-flex-direction: column; flex-direction: column; transition: transform 0.18s ease, box-shadow 0.18s ease; }
 .explain-card:hover { -webkit-transform: translateY(-2px); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(6,38,74,0.09); }
+.explain-card-photo { width: 100%; height: 132px; object-fit: cover; display: block; margin-bottom: 16px; }
+.explain-card-photo-temporary { object-position: center 42%; }
 .explain-icon { display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; -webkit-justify-content: center; justify-content: center; width: 44px; height: 44px; border-radius: 10px; background: #eaf3fb; color: #0064b7; margin-bottom: 12px; -webkit-flex-shrink: 0; flex-shrink: 0; }
 .explain-icon svg { width: 22px; height: 22px; }
-.explain-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; color: #06264a; }
-.explain-card p { font-size: 13px; color: #667085; margin: 0; }
+.explain-card h3 { font-size: 15px; font-weight: 700; margin: 0 20px 6px; color: #06264a; }
+.explain-card p { font-size: 13px; color: #667085; margin: 0 20px; }
+
+/* ---- Downloadable brochure ---- */
+.brochure-panel { display: grid; grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr); gap: 54px; -webkit-align-items: center; align-items: center; }
+.brochure-preview { display: block; max-width: 380px; margin: 0 auto; border-radius: 12px; overflow: hidden; background: #ffffff; box-shadow: 0 18px 42px rgba(6,38,74,0.18); border: 1px solid #c6d8e8; }
+.brochure-preview img { width: 100%; height: auto; display: block; }
+.brochure-copy h2 { margin-bottom: 16px; }
+.brochure-copy > p:not(.rental-section-kicker) { color: #667085; max-width: 620px; }
+.brochure-copy .brochure-note { font-size: 13px; margin-top: 10px; }
+.brochure-actions { display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center; -webkit-flex-wrap: wrap; flex-wrap: wrap; gap: 18px; margin-top: 24px; }
 
 /* ---- Service area ---- */
 .service-area-grid { display: -webkit-flex; display: flex; gap: 56px; -webkit-align-items: center; align-items: center; }
@@ -414,6 +425,9 @@ h3 { font-size: 18px; font-weight: 600; }
 .use-num { font-size: 11px; font-weight: 800; letter-spacing: 0.12em; color: #0064b7; text-transform: uppercase; margin-bottom: 12px; }
 .use-card h3 { font-size: 17px; margin-bottom: 10px; color: #06264a; line-height: 1.35; }
 .use-card p { font-size: 15px; color: #667085; margin: 0; line-height: 1.7; }
+.solution-card { padding: 0; overflow: hidden; }
+.solution-card > img { width: 100%; height: 180px; object-fit: cover; display: block; }
+.solution-card-body { padding: 24px; }
 
 /* ---- Steps ---- */
 .steps { display: -webkit-flex; display: flex; -webkit-align-items: flex-start; align-items: flex-start; margin-bottom: 40px; }
@@ -589,6 +603,7 @@ h3 { font-size: 18px; font-weight: 600; }
   .stats-item { padding: 20px 24px; }
   .stats-num  { font-size: 30px; }
   .two-col { -webkit-flex-direction: column; flex-direction: column; gap: 40px; }
+  .brochure-panel { grid-template-columns: 1fr; gap: 34px; }
   .service-area-grid { -webkit-flex-direction: column; flex-direction: column; gap: 32px; }
   .use-card      { width: calc(50% - 10px); }
   .industry-card { width: calc(50% - 10px); }
@@ -880,3 +895,4 @@ a.field-card:focus-visible { outline: 3px solid #0064b7; outline-offset: 2px; }
   .industry-hero-photo { height: 250px; }
   .industry-quote-band { padding: 26px 22px; }
 }
+\n
