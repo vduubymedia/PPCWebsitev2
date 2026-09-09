@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /references/
+Disallow: /uploads/
+Disallow: /industries-print.html
+
+Sitemap: https://www.rentalpress.com/sitemap.xml
+
+\n
